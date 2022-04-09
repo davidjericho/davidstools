@@ -43,6 +43,9 @@
       "86Box"
     ]
   ],
+  "persist": [
+    "roms"
+  ],
   "checkver": {
     "github": "https://github.com/86Box/86Box",
     "re": "download/v(?<version>[\\d\\.]+)/86Box-Windows-64-b(?<build>[\\d\\.]+).zip"
