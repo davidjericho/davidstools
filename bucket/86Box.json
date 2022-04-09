@@ -41,8 +41,7 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/86Box/86Box/",
-    "regex": "/releases/tag/v([\\w.-]+)\""
+    "github": "https://github.com/86Box/86Box"
   },
   "autoupdate": {
     "architecture": {
