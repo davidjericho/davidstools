@@ -48,8 +48,10 @@
     "architecture": {
       "64bit": {
         "url": ""
+      },
+      "32bit": {
+        "url": ""
       }
-    },
-    "url": "https://rammichael.com/downloads/7tt_setup.exe"
+    }
   }
 }
