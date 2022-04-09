@@ -1,0 +1,36 @@
+{
+  "version": "3.3",
+  "extract_dir": "86Box",
+  "description": "86Box is a low level x86 emulator that runs older operating systems and software designed for IBM PC systems and compatibles from 1981 through fairly recent system designs based on the PCI bus.",
+  "homepage": "https://86box.net",
+  "license": "GPLv2",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/86Box/86Box/releases/download/v3.3/86Box-Windows-64-b3700.zip",
+      "hash": "059da2cdc6b0c7b9400bc9056cdf6e00b3dff8c66381225b68057e4faf85c09e"
+    },
+    "32bit": {
+      "url": "https://github.com/86Box/86Box/releases/download/v3.3/86Box-Windows-32-b3700.zip",
+      "hash": "d4097c7ee2c3eedf5045b448d6fa4fc97777bdd097b2ba8b2e3dbcdbec98c431"
+    }
+  },
+  "bin": "86Box.exe",
+  "shortcuts": [
+    [
+      "86Box.exe",
+      "86Box"
+    ]
+  ],
+  "checkver": {
+    "url": "https://github.com/86Box/86Box/",
+    "regex": "/releases/tag/v([\\w.-]+)\""
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": ""
+      }
+    },
+    "url": "https://rammichael.com/downloads/7tt_setup.exe"
+  }
+}
