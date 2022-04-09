@@ -5,24 +5,40 @@
   "license": "GPLv2",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/86Box/86Box/releases/download/v3.3/86Box-Windows-64-b3700.zip",
-      "hash": "059da2cdc6b0c7b9400bc9056cdf6e00b3dff8c66381225b68057e4faf85c09e"
+      "url": [
+        "https://github.com/86Box/86Box/releases/download/v3.3/86Box-Windows-64-b3700.zip",
+        "https://github.com/86Box/roms/archive/refs/tags/20220319.zip"
+        ],
+      "hash": [
+        "059da2cdc6b0c7b9400bc9056cdf6e00b3dff8c66381225b68057e4faf85c09e",
+        "588c6e7b7d382ee652cc37a3d42174441cd340c2937b75b8575148169f1989c7"
+      ]
     },
     "32bit": {
-      "url": "https://github.com/86Box/86Box/releases/download/v3.3/86Box-Windows-32-b3700.zip",
-      "hash": "d4097c7ee2c3eedf5045b448d6fa4fc97777bdd097b2ba8b2e3dbcdbec98c431"
+      "url": [
+        "https://github.com/86Box/86Box/releases/download/v3.3/86Box-Windows-32-b3700.zip",
+        "https://github.com/86Box/roms/archive/refs/tags/20220319.zip"
+      ],
+      "hash": [
+        "d4097c7ee2c3eedf5045b448d6fa4fc97777bdd097b2ba8b2e3dbcdbec98c431",
+        "588c6e7b7d382ee652cc37a3d42174441cd340c2937b75b8575148169f1989c7"
+      ]
     }
   },
-  "extract_to": "",
+  "extract_dir": [
+    "",
+    "roms-20220319"
+  ],
+  "extract_to": [
+    "",
+    "roms"
+  ],
   "bin": "86Box.exe",
   "shortcuts": [
     [
       "86Box.exe",
       "86Box"
     ]
-  ],
-  "persist": [
-    "roms"
   ],
   "checkver": {
     "url": "https://github.com/86Box/86Box/",
