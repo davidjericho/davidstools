@@ -11,7 +11,7 @@
       "url": [
         "https://github.com/86Box/86Box/releases/download/v3.3/86Box-Windows-64-b3700.zip",
         "https://github.com/86Box/roms/archive/refs/tags/20220319.zip"
-        ],
+      ],
       "hash": [
         "059da2cdc6b0c7b9400bc9056cdf6e00b3dff8c66381225b68057e4faf85c09e",
         "588c6e7b7d382ee652cc37a3d42174441cd340c2937b75b8575148169f1989c7"
@@ -44,6 +44,17 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/86Box/86Box"
+    "github": "https://github.com/86Box/86Box",
+    "re": "download/v(?<version>[\\d\\.]+)/86Box-Windows-64-b(?<build>[\\d\\.]+).zip"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/86Box/86Box/releases/download/v$matchVersion/86Box-Windows-64-b$matchBuild.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/86Box/86Box/releases/download/v$matchVersion/86Box-Windows-32-b$matchBuild.zip"
+      }
+    }
   }
 }
