@@ -1,5 +1,5 @@
 {
-    "version": "3.4",
+    "version": "3.4.1",
     "description": "86Box is a low level x86 emulator that runs older operating systems and software designed for IBM PC systems and compatibles from 1981 through fairly recent system designs based on the PCI bus.",
     "homepage": "https://86box.net",
     "license": {
@@ -9,21 +9,21 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/86Box/86Box/releases/download/v3.4/86Box-Windows-64-b3737.zip",
+                "https://github.com/86Box/86Box/releases/download/v3.4.1/86Box-Windows-64-b3738.zip",
                 "https://github.com/86Box/roms/archive/refs/tags/20220319.zip"
             ],
             "hash": [
-                "868eb291ec51af87c781643d176dee773bb8e4167345c35388239b0057a95ca4",
+                "8b4b258040b6b7fe25c80e7af6fbcb0801a5f93b785057bd3622e5d400d6cf64",
                 "588c6e7b7d382ee652cc37a3d42174441cd340c2937b75b8575148169f1989c7"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/86Box/86Box/releases/download/v3.4/86Box-Windows-32-b3737.zip",
+                "https://github.com/86Box/86Box/releases/download/v3.4.1/86Box-Windows-32-b3738.zip",
                 "https://github.com/86Box/roms/archive/refs/tags/20220319.zip"
             ],
             "hash": [
-                "51865ee23ba5ff165b5ca384c940c7cecafb20a0f2f94dd0c98eeb12cfead586",
+                "65c08bc584d346163b12858c0dc09288488e299a302c8a3acc708e97a807aa53",
                 "588c6e7b7d382ee652cc37a3d42174441cd340c2937b75b8575148169f1989c7"
             ]
         }
