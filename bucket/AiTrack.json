@@ -1,0 +1,23 @@
+{
+    "version": "0.6.5",
+    "description": "AITrack is a 6-Degree of Freedom headtracker designed to work alongside Opentrack for its use in simulators/games.",
+    "homepage": "https://github.com/AIRLegend/aitrack",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/AIRLegend/aitrack/blob/master/LICENSE"
+    },
+    "url": "https://github.com/AIRLegend/aitrack/releases/download/v0.6.5-alpha/aitrack-v0.6.5-alpha.zip",
+    "hash": "4a8f4fdace8db09ebc72ba584da6f134afe1add3a4d8ae56e4ec89413b21626a",
+    "extract_dir": "aitrack-v0.6.5-alpha",
+    "bin": "AiTrack.exe",
+    "shortcuts": [
+        [
+            "AiTrack.exe",
+            "AiTrack"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/AIRLegend/aitrack/releases/download/v$version-alpha/aitrack-v$version-alpha.zip"
+    }
+}
