@@ -1,0 +1,22 @@
+{
+    "version": "1.1.5095",
+    "description": "A Windows helper app to share only a part of a screen via video conference apps that only support either full screen or single window.",
+    "homepage": "https://github.com/tom-englert/RegionToShare",
+    "license": {
+        "identifier": "GPLv3",
+        "url": "https://github.com/tom-englert/RegionToShare/blob/main/LICENSE"
+    },
+    "url": "https://github.com/tom-englert/RegionToShare/releases/download/1.1.5095/RegionToShare.zip",
+    "hash": "ce27e26c050f0324a680be0f4721fa67b4aa181060d4a08db84269045e321f40",
+    "bin": "RegionToShare.exe",
+    "shortcuts": [
+        [
+            "RegionToShare.exe",
+            "RegionToShare"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/tom-englert/RegionToShare/releases/download/$version/RegionToShare.zip"
+    }
+}
