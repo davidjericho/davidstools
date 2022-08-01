@@ -1,5 +1,5 @@
 {
-    "version": "3.6",
+    "version": "3.7",
     "description": "86Box is a low level x86 emulator that runs older operating systems and software designed for IBM PC systems and compatibles from 1981 through fairly recent system designs based on the PCI bus.",
     "homepage": "https://86box.net",
     "license": {
@@ -9,28 +9,28 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/86Box/86Box/releases/download/v3.6/86Box-Windows-64-b3850.zip",
-                "https://github.com/86Box/roms/archive/refs/tags/20220523.zip"
+                "https://github.com/86Box/86Box/releases/download/v3.7/86Box-Windows-64-b4008.zip",
+                "https://github.com/86Box/roms/archive/refs/tags/v3.7.zip"
             ],
             "hash": [
-                "f1c28bdbd665f24b64df9ac81f248d4592dd00317cb5a275005ecf360827c5b9",
-                "fd405cbaa89c01b69a54cad1431c24aa42ad84bd8c792f3386a3127264109790"
+                "a64c6c1d48b76608b45db561c0ef48e68b168dd4953e99227a1f5eac18f37736",
+                "8d499048a17491f035ae7d2e2702a43a36b1e25d21805902a57374bdbcf45d9e"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/86Box/86Box/releases/download/v3.6/86Box-Windows-32-b3850.zip",
-                "https://github.com/86Box/roms/archive/refs/tags/20220523.zip"
+                "https://github.com/86Box/86Box/releases/download/v3.7/86Box-Windows-32-b4008.zip",
+                "https://github.com/86Box/roms/archive/refs/tags/v3.7.zip"
             ],
             "hash": [
-                "1ef78357fe8d91c1f5ef321c9872b6e09cb50739d51025727b061ab2217e469d",
-                "fd405cbaa89c01b69a54cad1431c24aa42ad84bd8c792f3386a3127264109790"
+                "6b259b4ebaf22103f6870e73a88c0404ef3ae7a1fe55a65805846b8a09ca44a8",
+                "8d499048a17491f035ae7d2e2702a43a36b1e25d21805902a57374bdbcf45d9e"
             ]
         }
     },
     "extract_dir": [
         "",
-        "roms-20220523"
+        "roms-3.7"
     ],
     "extract_to": [
         "",
