@@ -1,0 +1,22 @@
+{
+    "version": "1.4.5",
+    "description": "Orca Slicer is a fork of Bambu Studio",
+    "homepage": "https://github.com/SoftFever/OrcaSlicer",
+    "license": {
+        "identifier": "AGPL-3.0",
+        "url": "https://github.com/SoftFever/OrcaSlicer/blob/SoftFever/LICENSE"
+    },
+    "url": "https://github.com/SoftFever/OrcaSlicer/releases/download/v1.4.5/BambuStudio-SoftFever_V1.4.5_Win64.zip",
+    "hash": "1e6767256b21c30ff6db109be94140583d730a894ed6e5dee07305a05ac3fdc1",
+    "bin": "bambu-studio.exe",
+    "shortcuts": [
+        [
+            "bambu-studio.exe",
+            "Orca Slicer"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/SoftFever/OrcaSlicer/releases/download/v$version/BambuStudio-SoftFever_V$version_Win64.zip"
+    }
+}
