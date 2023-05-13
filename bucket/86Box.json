@@ -43,10 +43,11 @@
             "86Box"
         ]
     ],
-    "persist": "roms",	
+    "persist": "roms",
     "checkver": {
-        "github": "https://github.com/86Box/86Box",
-        "re": "v(?<version>[\\d\\.]+)\/86Box-Windows-64-b(?<build>[\\d\\.]+)\\.zip"
+        "url": "https://api.github.com/repos/86Box/86Box/releases/latest",
+        "jp": ".assets",
+        "re": "v(?<version>[\\d\\.]+)/86Box-Windows-64-b(?<build>[\\d\\.]+)\\.zip"
     },
     "autoupdate": {
         "architecture": {
